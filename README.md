@@ -3,12 +3,17 @@
 ## 1.학습 방식 어떤 것이 있는가?
 
 찾아본 것 
+
 Research on Human Action Recognition in Dance Video Images 
 본 논문은 학습이 아닌 춤의 특징점을 더 잘 찾아서 svm 분류기를 통해 분류의 정확도를 높이는데 의의를 둔 논문이다. svm 분류기를 사용했다.
+
+논문 : https://www.researchgate.net/publication/355895812_Human_Action_Recognition_Technology_in_Dance_Video_Image
 
 Complex Human Action Recognition in Live Videos Using Hybrid FR-DL Method
 이미지의 배경을 제거하고 HOG 기법을 통해서 전처리 후 CNNLSTM 모델을 통해서 학습 시킨다.
 HOG 영상의 부분 기울기 방향 정보를 특징 벡터로 사용하는 것이다. 일반적으로 보행자 검출을 하기 위한 알고리즘을 사용된다.
+
+논문 : https://arxiv.org/abs/2007.02811
 
 HOG 관련 예시
 
